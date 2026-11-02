@@ -3,6 +3,12 @@
 Este repositorio contiene un proyecto para el modelado, selección de especificaciones y evaluación de predicción del Índice de Precios al Consumidor (IPC) Nivel General de Argentina (Base 2016), utilizando series temporales e inferencia de Cuasi-Máxima Verosimilitud (QMLE).
 
 
+## Metodología de Desarrollo 
+
+Este proyecto fue realizado bajo un enfoque de programación colaborativa asistida por IA. 
+* Rol del autor: diseño conceptual, definición de objetivos econométricos, selección de hipótesis (análisis de estacionariedad, modelos ARIMA), validación teórica e interpretación de resultados.
+* Rol de la IA: asistencia técnica para la optimización de sintaxis en Python, estructuración de bloques de código y resolución de errores en bucles.
+
 ## Funciones Reutilizables del Proyecto
 
 * Cargado de Datos: descarga directa desde la API de Datos Abiertos de Argentina (`apis.datos.gob.ar`) de la serie oficial del IPC Nivel General (Base 2016) mediante el módulo `src/datos.py`.
